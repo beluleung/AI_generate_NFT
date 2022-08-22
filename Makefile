@@ -53,3 +53,7 @@ pypi_test:
 
 pypi:
 	@twine upload dist/* -u $(PYPI_USERNAME)
+
+# load web server with code autoreload
+run_transfer_api:
+	uvicorn plot_transfer_api.plot_transfer:app --reload

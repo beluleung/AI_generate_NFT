@@ -1,5 +1,5 @@
 # packaging
-pip>=9
+pip>=22
 setuptools>=26
 twine
 wheel>=0.29
@@ -11,21 +11,9 @@ pandas
 scikit-learn
 tensorflow
 
-# tests/linter
-black
-coverage
-flake8
-pytest
-yapf
 
 # API
 gcsfs
 google-cloud-storage
-mlflow
-s3fs
-
-# utilities
-six>=1.14
-joblib
-memoized-property
-termcolor
+uvicorn
+fastapi
