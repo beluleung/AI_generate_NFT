@@ -1,0 +1,26 @@
+# packaging
+pip>=9
+setuptools>=26
+twine
+wheel>=0.29
+anyio
+
+# data science
+numpy
+pandas
+scikit-learn
+tensorflow==2.8.0
+
+# Images
+pillow
+
+# API
+gcsfs
+google-cloud-storage
+fastapi
+uvicorn
+
+
+# utilities
+six>=1.14
+joblib
